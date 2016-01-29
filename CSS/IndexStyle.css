@@ -75,7 +75,6 @@ p, h1, h2 {
 	height: 1px;
 	border: 0;
 	background: #333;
-	background-image: linear-gradient(to right, #ccc, #333, #ccc);
 	width: 400px;
 }
 
