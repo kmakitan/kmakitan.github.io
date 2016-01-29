@@ -1,0 +1,292 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+.Nav {
+	background-color: black;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	z-index: 2;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%
+}
+
+.Nav_ul {
+	text-align: center;
+}
+
+.Nav_ul li {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	
+}
+
+.Nav_ul li a{
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+}
+
+.Nav_ul li a:hover{
+	color: black;
+	background-color: white;
+}
+
+#Home {
+	background-color: #235f89;
+	height: 100%;
+	
+}
+#Skills{
+	
+}
+
+p, h1, h2 {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+.section{
+	z-index: 0;
+	width: 100%;
+}
+
+#HomeHeading {
+	padding-top: 20%;
+	font-size: 40px;
+	color: white;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#subtitle {
+	text-align: center;
+}
+#HomeRuler{
+	height: 1px;
+	border: 0;
+	background: #333;
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	width: 400px;
+}
+
+.row{
+	text-align: center;
+	
+}
+.col {
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.col ul{
+
+}
+
+.col ul li {
+	list-style: none;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding: 10px 0px 10px 0px;
+}
+.skillTitle{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 40px;
+}
+.title{
+	
+}
+
+.l5{
+	width: 100px;
+	background-color: #0CF;
+}
+.l4{
+	width: 80px;
+	background-color: #0CF;
+}
+.l3{
+	width: 60px;
+	background-color: #0CF;
+}
+.l2{
+	width: 40px;
+	background-color: #0CF;
+}
+.l1{
+	width: 20px;
+	background-color: #0CF;
+}
+
+#bar {
+	height: 3px;
+	display: inline-block;
+	float: right;
+	margin-top: 7px;
+}
+.g1{
+	background-color: #CCC;
+	width: 20px;
+}
+.g2{
+	background-color: #CCC;
+	width: 40px;
+}
+.g3{
+	background-color: #CCC;
+	width: 60px;
+}
+.g4{
+	background-color: #CCC;
+	width: 80px;
+}
+
+#About {
+	background-color: #fff;
+	width: 100%;
+	height: 400px;
+}
+
+#AboutDiv {
+	text-align: center;
+	padding-top: 80px;
+}
+.SubHeading{
+	text-align: center;
+	color: #000;
+	font-size: 30px;
+	padding-top: 20px;
+}
+#Basics {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	width: 350px;
+}
+#BasicsUl {
+	list-style: none;
+	text-align: left;
+}
+#Specifics {
+	display: inline-block;
+	width: 350px;
+	vertical-align: top;
+	padding-top: 6px;
+}
+#SpecificsP {
+	color: #000;
+	text-align: left;
+}
+
+#CenterSpacing {
+	display: inline-block;
+	width: 160px;
+}
+
+#face {
+	width: 90px;
+	height: 120px;
+}
+
+#Contact{
+	background-color: white;
+	height: 650px;
+}
+
+.linkli {
+	display: block;
+	padding: 10px 5px 10px 5px;
+	margin-left: -30px;
+
+	
+}
+.link {
+	color: #000;
+	text-decoration: none;
+	
+}
+
+#Contactul{
+	display: table;
+	margin: 0 auto;
+}
+
+.icon {
+	width: 32px;
+	height: 32px;
+	margin-bottom: -9px;
+	
+}
+#WhiteTitle {
+	color: white;
+}
+
+
+#Timeline{
+	background-color: #235f89;
+	height: 650px;
+	padding-top: 10px;
+	margin-top: -15px;
+}
+#TimelineBox{
+	padding-top: 20px;
+	text-align: center;
+}
+
+#TimelinePNG{
+	width: 864px;
+	height: 480px;
+}
+
+
+#Projects{
+	background-color: #235f89;
+	height: 500px;
+}
+
+#ProjectTable{
+	align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+	
+}
+
+#ProjectTable td{
+	border: 1px solid white;
+	border-collapse: collapse;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+}
+
+#ProjectTable a{
+	text-decoration: none;
+	color: white;
+}
+
+.tableimg {
+	display: inline-block;
+	padding-top: 3px;
+}
+#Projects{
+	padding-top: 10px;
+	margin-top: -15px;
+}
+
+.Anchor{
+	position: absolute;
+	top: -70px;
+}
