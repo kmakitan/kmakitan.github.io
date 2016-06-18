@@ -1,0 +1,17 @@
+@font-face{
+	font-family: Gadugi;
+	src: url(fonts/gadugi.ttf);
+}
+
+html{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+#navUl{
+	font-family: 'Corbel', sans-serif;
+
+}
+
+h1{
+	font-family: Gadugi, sans-serif;
+}
