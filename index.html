@@ -4,73 +4,78 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
     <!--Background image-->
-    <img src="images/BG.jpg">
+    <img id="BG" src="images/BG.jpg">
     <!--End Background image-->
     <!--Navigation Bar Section-->
-    <div id="navigationBar">
-        <ul id="navUl" class="list-inline">
-            <li><a href="#">HOME</li>
-            <li><a href="#">ABOUT</li>
-            <li><a href="#">EXPERIENCES</li>
-            <li><a href="#">PROJECTS</li>
-            <li><a href="#">CONTACT</li>
-        </ul>
-        <div id="navLine"></div>
-    </div>
+    <ul id="navUl">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">PROFILE</a></li>
+        <li><a href="#">EXPERIENCES</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">CONTACT</a></li>
+    </ul>
     <!--End Navigation Bar Section-->
     <!--Home Section-->
     <div id="home">
-        <div class="container">
-            <div id="topLine"></div>
+        <div id="homeContainer" class="container">
+            <div id="homeLine"></div>
             <h1>KENZO MAKITANI</h1>
-            <div id="botLine"></div>
-            <p>FRONT-END</p>
+            <div id="homeLine"></div>
+            <p><strong>FRONT-END</strong></p>
         </div>
     </div>
     <!--End Home Section-->
     <div id="blueTrans">
-        <!--About Section-->
-        <div id="about">
-            <div id="aboutHead" class="container">
-                <h2>Profile</h2>
+        <!--Profile Section-->
+        <div id="profile" class="secDiv">
+            <div id="profileHead" class="headContainer">
+                <h2>PROFILE</h2>
                 <h3>pursuing web, ui and ux development</h3>
-                <div><span class="whiteLine"></span><img src="images/X.png"><span class="whiteLine"></span></div>
+                <div>
+                    <div class="whiteLine"></div><img src="images/X.png">
+                    <div class="whiteLine"></div>
+                </div>
             </div>
-            <div id="aboutBody" class="container">
-                <span id="left">
-                <h4>About Me</h4>
-                <p>I have been motivated since day one to achieve my career goal.  My dream is to become a     front-end developer doing web, UI and UX work.  I can learn and apply new technologies quickly.  I‘m a team player but I can also work alone.  I pay attention to detail, making sure every bit is correct.</p>
-                </span>
-                <img src="">
-                <span id="right">
-                <h4>Details</h4>
-                <ul id="detailsUl">
-                	<li><strong>Name:</strong><br>Kenzo Makitani</li>
-                	<li><strong>Age:</strong><br>Nineteen</li>
-                	<li><strong>School:</strong><br>University of California, Irvine</li>
-                	<li><strong>Major:</strong><br>Informatics</li>
-                	<li><strong>Specialization:</strong><br>Human Computer Interaction</li>
-                </ul>
-                </span>
+            <div id="profileBody" class="bodyContainer">
+                <div id="left">
+                    <h4>About Me</h4>
+                    <p>I have been motivated since day one to achieve my career goal. My dream is to become a front-end developer doing web, UI and UX work. I can learn and apply new technologies quickly. I&#39;m a team player but I can also work alone. I pay attention to detail, making sure every bit is correct.</p>
+                </div>
+                <img id="me" src="images/Me.png">
+                <div id="right">
+                    <h4>Details</h4>
+                    <ul id="detailsUl">
+                        <li><strong>Name:</strong>
+                            <br>Kenzo Makitani</li>
+                        <li><strong>Age:</strong>
+                            <br>Nineteen</li>
+                        <li><strong>School:</strong>
+                            <br>University of California, Irvine</li>
+                        <li><strong>Major:</strong>
+                            <br>Informatics</li>
+                        <li><strong>Specialization:</strong>
+                            <br>Human Computer Interaction</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <!--End About Section-->
+        <!--End Profile Section-->
         <!--Experiences Section-->
-        <div id="experiences">
-            <div id="experiencesHead" class="container">
+        <div id="experiences" class="secDiv">
+            <div id="experiencesHead" class="headContainer">
                 <h2>EXPERIENCES</h2>
                 <h3>the opportunities that built me</h3>
-                <div><span class="whiteLine"></span><img src="images/X.png"><span class="whiteLine"></span></div>
+                <div>
+                    <div class="whiteLine"></div><img src="images/X.png">
+                    <div class="whiteLine"></div>
+                </div>
             </div>
-            <div id="experiencesBody" class="container">
+            <div id="experiencesBody" class="bodyContainer">
                 <h4>EDUCATION</h4>
                 <div class="xpElement">
                     <p><strong>University of California, Irvine</strong>
@@ -117,13 +122,16 @@
         </div>
         <!--End Experiences Section-->
         <!--Projects Section-->
-        <div id="projects">
-            <div id="projectsHead" class="container">
+        <div id="projects" class="secDiv">
+            <div id="projectsHead" class="headContainer">
                 <h2>PROJECTS</h2>
                 <h3>displaying my knowledge</h3>
-                <div><span class="whiteLine"></span><img src="images/X.png"><span class="whiteLine"></span></div>
+                <div>
+                    <div class="whiteLine"></div><img src="images/X.png">
+                    <div class="whiteLine"></div>
+                </div>
             </div>
-            <div id="projectsBody" class="container">
+            <div id="projectsBody" class="bodyContainer">
                 <div class="projImg"><img src="images/HomeUnion.png"><img src="images/goTo5.png"></div>
                 <div class="projImg"><img src="images/D3.png"><img src="images/goTo5.png"></div>
                 <div class="projImg"><img src="images/EnvoyNow.jpg"><img src="images/goTo5.png"></div>
@@ -132,21 +140,24 @@
         </div>
         <!--End Projects Section-->
         <!--Contact Section-->
-        <div id="contact">
-            <div id="contactHead" class="container">
+        <div id="contact" class="secDiv">
+            <div id="contactHead" class="headContainer">
                 <h2>CONTACT</h2>
                 <h3>expanding my professional network</h3>
-                <div><span class="whiteLine"></span><img src="images/X.png"><span class="whiteLine"></span></div>
+                <div>
+                    <div class="whiteLine"></div><img src="images/X.png">
+                    <div class="whiteLine"></div>
+                </div>
             </div>
-            <div id="projectsBody" class="container">
+            <div id="projectsBody" class="bodyContainer">
                 <ul>
                     <li><img src="images/EmailIcon.png"><a href="mailto:jon@example.org">Kenzosmakitani@gmail.com</a></li>
-            <li><img src="images/GitHubIcon.png"><a href="https://github.com/kmakitan">https://github.com/kmakitan</a></li>
-            <li><img src="images/LinkedInIcon.png"><a href="https://www.linkedin.com/in/kenzomakitani">https://www.linkedin.com/in/kenzomakitani</a></li>
-        </ul>
-    </div>
-    </div>
-    <!--End Contact Section-->
+                    <li><img src="images/GitHubIcon.png"><a href="https://github.com/kmakitan">https://github.com/kmakitan</a></li>
+                    <li><img src="images/LinkedInIcon.png"><a href="https://www.linkedin.com/in/kenzomakitani">https://www.linkedin.com/in/kenzomakitani</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--End Contact Section-->
     </div>
 </body>
 

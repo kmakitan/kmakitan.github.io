@@ -1,17 +1,164 @@
-@font-face{
-	font-family: Gadugi;
-	src: url(fonts/gadugi.ttf);
+@font-face {
+    font-family: 'Gadugi';
+    src: url('fonts/gadugi.ttf');
 }
 
-html{
-	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
-}
-#navUl{
-	font-family: 'Corbel', sans-serif;
-
+@font-face {
+    font-family: 'corbel';
+    src: url('fonts/corbel.ttf');
 }
 
-h1{
-	font-family: Gadugi, sans-serif;
+html {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+#BG {
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+#navUl {
+    margin: 0;
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    text-align: center;
+}
+
+#navUl li {
+    list-style-type: none;
+    padding: 10px 0px 10px 0px;
+}
+
+#navUl li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px 5px 15px;
+}
+
+#navUl li a:hover {
+    background-color: black;
+    color: grey;
+}
+
+h1 {
+    font-family: 'Gadugi', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    top: 50%;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+#home {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#homeContainer {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 400px;
+    margin: auto;
+}
+
+#homeLine {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+
+#homeContainer p {
+    margin: 0;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 43px;
+    margin-right: -43px;
+}
+
+#blueTrans {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(77, 101, 175, 0.4);
+}
+
+.secDiv {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.headContainer {
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'corbel', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    margin-bottom: 50px;
+}
+
+.whiteLine {
+    width: 35%;
+    height: 2px;
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.bodyContainer {
+    display: block;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+h4 {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#left {
+    width: calc(35% - 80px);
+    float: left;
+    padding-left: 60px;
+    text-align: right;
+}
+
+#me {
+    width: calc(30% - 60px);
+    padding: 0px 30px 0px 30px;
+    float: left;
+}
+
+#right {
+    width: calc(35% - 80px);
+    float: left;
+    padding-right: 60px;
+    text-align: left;
+}
+
+#right ul {
+    list-style-type: none;
+    padding-left: 0;
 }
