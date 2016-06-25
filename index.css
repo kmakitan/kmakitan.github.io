@@ -102,7 +102,6 @@ h1 {
 }
 
 .headContainer {
-    padding-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -114,7 +113,7 @@ h2 {
 }
 
 h3 {
-	margin-top: 0;
+    margin-top: 0;
     margin-bottom: 30px;
     font-weight: normal;
     font-size: 24px;
@@ -144,10 +143,19 @@ h4 {
     font-weight: normal;
 }
 
+
+/* Profile */
+
+#profileBody {}
+
 #left {
     width: calc(35% - 90px);
     float: left;
-    padding-left: 60px;
+    padding-left: 90px;
+    text-align: right;
+}
+
+#profileHeading {
     text-align: right;
 }
 
@@ -160,11 +168,138 @@ h4 {
 #right {
     width: calc(35% - 90px);
     float: left;
-    padding-right: 60px;
+    padding-right: 90px;
     text-align: left;
 }
 
 #right ul {
     list-style-type: none;
     padding-left: 0;
+}
+
+#right ul h4 {
+    text-align: left;
+}
+
+
+/* Experiences */
+
+#experiencesBody h4 {
+    text-align: left;
+}
+
+.xpElement {
+    width: 100%;
+}
+
+.xpLeft {
+    width: 35%;
+    float: left;
+    text-align: left;
+}
+
+.xpLeft img {
+    position: relative;
+    top: +2px;
+}
+
+.xpRight {
+    width: 65%;
+    float: left;
+    text-align: left;
+}
+
+
+/* Project */
+
+.projectContainer {
+    width: calc(50% - 60px);
+    float: left;
+    padding: 30px;
+}
+
+.projectContainer figure {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+}
+
+.projectContainer figure figcaption {
+	text-align: left;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 30px 30px;
+    opacity: 0;
+    bottom: 0;
+    left: -30%;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+}
+
+.projectContainer figure figcaption a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.projectContainer figure:hover figcaption {
+  opacity: 1;
+  left: 0;
+}
+
+
+.projectContainer figure figcaption h3{
+	font-weight: bold;
+}
+
+.goTo {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+/* Contact */
+
+#contactBody {
+    width: 60%;
+    margin: auto;
+}
+
+#contactBody ul li {
+    list-style-type: none;
+    height: 64px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#contactBody ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#contactBody ul li img {
+    vertical-align: middle;
+}
+
+
+/* JS CSS */
+
+.active {
+    background-color: black;
+    color: grey;
+}
+
+.section {
+    padding-top: 100px
 }

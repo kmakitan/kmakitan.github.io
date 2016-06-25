@@ -5,6 +5,8 @@
 <head>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
@@ -13,16 +15,16 @@
     <!--End Background image-->
     <!--Navigation Bar Section-->
     <ul id="navUl">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">PROFILE</a></li>
-        <li><a href="#">EXPERIENCES</a></li>
-        <li><a href="#">PROJECTS</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a class="active" href="#home">HOME</a></li>
+        <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#experiences">EXPERIENCES</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
     </ul>
     <!--End Navigation Bar Section-->
     <!--Home Section-->
     <div id="home">
-        <div id="homeContainer" class="container">
+        <div id="homeContainer">
             <div id="homeLine"></div>
             <h1>KENZO MAKITANI</h1>
             <div id="homeLine"></div>
@@ -32,7 +34,7 @@
     <!--End Home Section-->
     <div id="blueTrans">
         <!--Profile Section-->
-        <div id="profile" class="secDiv">
+        <div id="profile" class="secDiv section">
             <div id="profileHead" class="headContainer">
                 <h2>PROFILE</h2>
                 <h3>Pursuing Web, UI and UX Development</h3>
@@ -43,7 +45,7 @@
             </div>
             <div id="profileBody" class="bodyContainer">
                 <div id="left">
-                    <h4>About Me</h4>
+                    <h4 id="profileHeading">About Me</h4>
                     <p>I have been motivated since day one to achieve my career goal. My dream is to become a front-end developer doing web, UI and UX work. I can learn and apply new technologies quickly. I&#39;m a team player but I can also work alone. I pay attention to detail, making sure every bit is correct.</p>
                 </div>
                 <img id="me" src="images/Me.png">
@@ -66,7 +68,7 @@
         </div>
         <!--End Profile Section-->
         <!--Experiences Section-->
-        <div id="experiences" class="secDiv">
+        <div id="experiences" class="secDiv section">
             <div id="experiencesHead" class="headContainer">
                 <h2>EXPERIENCES</h2>
                 <h3>The Opportunities That Built Me</h3>
@@ -77,52 +79,42 @@
             </div>
             <div id="experiencesBody" class="bodyContainer">
                 <h4>EDUCATION</h4>
-                <div class="xpElement">
-                    <p><strong>University of California, Irvine</strong>
-                        <br> Class of 2018
-                        <br>
-                        <img src="images/Marker.png">Irvine, CA</p>
-                    <p><strong>Bachelor of Science - Informatics (Specialization: Human Computer Interaction)</strong>
-                        <br> Informatics, the field you’ve never heard of is used daily in our lives. How we design technology, how we interact with it and how it affects us is studied in the course. Specializing in Human Computer Interaction examines how existing technologies shape our behavior and how we can design future technologies that better fit our practices.</p>
-                </div>
+                <p class="xpLeft"><strong>University of California, Irvine</strong>
+                    <br> Class of 2018
+                    <br>
+                    <img src="images/Marker.png">Irvine, CA</p>
+                <p class="xpRight"><strong>Bachelor of Science - Informatics (Specialization: Human Computer Interaction)</strong>
+                    <br> Informatics, the field you&#39;ve never heard of is used daily in our lives. How we design technology, how we interact with it and how it affects us is studied in the course. Specializing in Human Computer Interaction examines how existing technologies shape our behavior and how we can design future technologies that better fit our practices.</p>
                 <h4>CAREERS</h4>
-                <div class="xpElement">
-                    <p><strong>Stanford University Web Services</strong>
-                        <br> June 2016 - Present
-                        <br>
-                        <img src="images/Marker.png">Stanford, CA</p>
-                    <p><strong>Web Services Intern</strong>
-                        <br> Stanford web services is in charge of performing updates and changes to websites for departments across the university. As an intern, my duty was to assist developers who needed extra help with their corresponding projects.</p>
-                </div>
-                <div class="xpElement">
-                    <p><strong>EnvoyNow</strong>
-                        <br> January 2016 - June 2016
-                        <br>
-                        <img src="images/Marker.png">Irvine, CA</p>
-                    <p><strong>Ad Designer</strong>
-                        <br> EnvoyNow is a food delivery company where customers use a mobile app to order and have food delivered within minutes. After showing off my layout and design skills, the company hired me to create more ads for them. I used Adobe Photoshop and inDesign to create the ads. The ads helped expose the company to more customers.</p>
-                </div>
-                <div class="xpElement">
-                    <p><strong>iD Tech Camps</strong>
-                        <br> June 2015 - September 2015
-                        <br>
-                        <img src="images/Marker.png">Stanford, CA</p>
-                    <p><strong>Instructor</strong>
-                        <br>As an instructor, I taught students the core concepts of Object Oriented Programming and Java programming through a week long course. Students created their own unique mods (extensions) to the popular sandbox game, Minecraft. Aside from instruction, as a camp counselor I also had to plan with my coworkers and manage time well to ensure students met the course objectives, participated in various activities and had an enjoyable week.</p>
-                </div>
-                <div class="xpElement">
-                    <p><strong>Digital Media Academy</strong>
-                        <br> June 2014 - September 2014
-                        <br>
-                        <img src="images/Marker.png">Stanford, CA</p>
-                    <p><strong>Instructor's Assistant &#38; Counselor</strong>
-                        <br> During my time at Digital Media Academy, I assisted the instructor in teaching the course material and answering any questions regarding it. I taught many courses in film-making and game design. I also helped lead various break, lunch and afternoon activities to create friendships between campers.</p>
-                </div>
+                <p class="xpLeft"><strong>Stanford University Web Services</strong>
+                    <br> June 2016 - Present
+                    <br>
+                    <img src="images/Marker.png">Stanford, CA</p>
+                <p class="xpRight"><strong>Web Services Intern</strong>
+                    <br> Stanford web services is in charge of performing updates and changes to websites for departments across the university. As an intern, my duty was to assist developers who needed extra help with their corresponding projects.</p>
+                <p class="xpLeft"><strong>EnvoyNow</strong>
+                    <br> January 2016 - June 2016
+                    <br>
+                    <img src="images/Marker.png">Irvine, CA</p>
+                <p class="xpRight"><strong>Ad Designer</strong>
+                    <br> EnvoyNow is a food delivery company where customers use a mobile app to order and have food delivered within minutes. After showing off my layout and design skills, the company hired me to create more ads for them. I used Adobe Photoshop and inDesign to create the ads. The ads helped expose the company to more customers.</p>
+                <p class="xpLeft"><strong>iD Tech Camps</strong>
+                    <br> June 2015 - September 2015
+                    <br>
+                    <img src="images/Marker.png">Stanford, CA</p>
+                <p class="xpRight"><strong>Instructor</strong>
+                    <br>As an instructor, I taught students the core concepts of Object Oriented Programming and Java programming through a week long course. Students created their own unique mods (extensions) to the popular sandbox game, Minecraft. Aside from instruction, as a camp counselor I also had to plan with my coworkers and manage time well to ensure students met the course objectives, participated in various activities and had an enjoyable week.</p>
+                <p class="xpLeft"><strong>Digital Media Academy</strong>
+                    <br> June 2014 - September 2014
+                    <br>
+                    <img src="images/Marker.png">Stanford, CA</p>
+                <p class="xpRight"><strong>Instructor's Assistant &#38; Counselor</strong>
+                    <br> During my time at Digital Media Academy, I assisted the instructor in teaching the course material and answering any questions regarding it. I taught many courses in film-making and game design. I also helped lead various break, lunch and afternoon activities to create friendships between campers.</p>
             </div>
         </div>
         <!--End Experiences Section-->
         <!--Projects Section-->
-        <div id="projects" class="secDiv">
+        <div id="projects" class="secDiv section">
             <div id="projectsHead" class="headContainer">
                 <h2>PROJECTS</h2>
                 <h3>Displaying My Knowledge</h3>
@@ -132,15 +124,67 @@
                 </div>
             </div>
             <div id="projectsBody" class="bodyContainer">
-                <div class="projImg"><img src="images/HomeUnion.png"><img src="images/goTo5.png"></div>
-                <div class="projImg"><img src="images/D3.png"><img src="images/goTo5.png"></div>
-                <div class="projImg"><img src="images/EnvoyNow.jpg"><img src="images/goTo5.png"></div>
-                <div class="projImg"><img src="images/Shoji.png"><img src="images/goTo5.png"></div>
+                <div class="projectContainer">
+                    <figure>
+                        <img class="projImg" src="images/HomeUnion.jpg">
+                        <figcaption>
+                            <a href="">
+                                <h3>HomeUnion</h3>
+                                <p>A real-estate company located in Irvine</p>
+                                <p><strong>Tags:</strong>
+                                    <br>Javascript, GoogleMaps API</p>
+                            </a>
+                        </figcaption>
+                        <span class="goTo"><img src="images/goTo5.png"></span>
+                    </figure>
+                </div>
+                <div class="projectContainer">
+                    <figure>
+                        <img class="projImg" src="images/D3.png">
+                        <figcaption>
+                            <a href="">
+                                <h3>INF 143: D3</h3>
+                                <p>Information Visualization Course using D3</p>
+                                <p><strong>Tags:</strong>
+                                    <br>D3, Javascript</p>
+                            </a>
+                        </figcaption>
+                        <span class="goTo"><img src="images/goTo5.png"></span>
+                    </figure>
+                </div>
+                <div class="projectContainer">
+                    <figure>
+                        <img class="projImg" src="images/EnvoyNow.jpg">
+                        <figcaption>
+                            <a href="">
+                                <h3>EnvoyNow</h3>
+                                <p>On-demand food delivery service</p>
+                                <p><strong>Tags:</strong>
+                                    <br>InDesign, Photoshop</p>
+                            </a>
+                        </figcaption>
+                        <span class="goTo"><img src="images/goTo5.png"></span>
+                    </figure>
+                </div>
+                <div class="projectContainer">
+                    <figure>
+                        <img class="projImg" src="images/KMShojis.jpg">
+                        <figcaption>
+                            <a href="d3/index.html">
+                                <h3>KMShojis</h3>
+                                <p>First ever sample website I created</p>
+                                <p><strong>Tags:</strong>
+                                    <br>HTML, CSS, InDesign</p>
+                            </a>
+                        </figcaption>
+                        <span class="goTo"><img src="images/goTo5.png"></span>
+                    </figure>
+                </div>
             </div>
         </div>
         <!--End Projects Section-->
         <!--Contact Section-->
-        <div id="contact" class="secDiv">
+        <div id="contact" class="secDiv section">
             <div id="contactHead" class="headContainer">
                 <h2>CONTACT</h2>
                 <h3>Expanding My Professional Network</h3>
@@ -149,9 +193,9 @@
                     <div class="whiteLine"></div>
                 </div>
             </div>
-            <div id="projectsBody" class="bodyContainer">
+            <div id="contactBody" class="bodyContainer">
                 <ul>
-                    <li><img src="images/EmailIcon.png"><a href="mailto:jon@example.org">Kenzosmakitani@gmail.com</a></li>
+                    <li><img src="images/EmailIcon.png"><a href="mailto:Kenzosmakitani@gmail.com">Kenzosmakitani@gmail.com</a></li>
                     <li><img src="images/GitHubIcon.png"><a href="https://github.com/kmakitan">https://github.com/kmakitan</a></li>
                     <li><img src="images/LinkedInIcon.png"><a href="https://www.linkedin.com/in/kenzomakitani">https://www.linkedin.com/in/kenzomakitani</a></li>
                 </ul>
