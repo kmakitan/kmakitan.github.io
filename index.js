@@ -7,7 +7,7 @@ $(document).ready(function() {
                 scrollTop: target.offset().top
             }, 500);
         }
-    });	
+    });
 
 
     //Scroll Highlight
@@ -15,12 +15,21 @@ $(document).ready(function() {
 
         var position = $(this).scrollTop();
 
+        var result = $("#home").height();
+        console.log(position);
+        console.log(result);
+
+
         $('.section').each(function() {
             var target = $(this).offset().top;
             var id = $(this).attr('id');
             if (id != "home") {
-            	position += 1;
+                target -= 1;
             }
+
+
+
+
 
 
             if (position >= target) {
