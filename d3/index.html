@@ -81,7 +81,7 @@
 
         // setup y
         var yValue = function(d) {
-                return d["quality"];
+                return d.quality;
             }, // data -> value
             yScale = d3.scale.linear().range([height, 0]), // value -> display
             yMap = function(d) {
@@ -102,8 +102,8 @@
             // change string (from CSV) into number format
             data.forEach(function(d) {
                 d[selected] = +d[selected];
-                d["quality"] = +d["quality"];
-                console.log(d["quality"]);
+                d.quality = +d.quality;
+                console.log(d.quality);
             });
 
             // don't want dots overlapping axis, so add in buffer to data domain
@@ -144,7 +144,7 @@
                     return xScale(d[selected]);
                 })
                 .attr("cy", function(d) {
-                    return yScale(d["quality"]);
+                    return yScale(d.quality);
                 })
                 .style("fill", "red")
         });
