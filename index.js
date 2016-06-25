@@ -4,7 +4,7 @@ $(document).ready(function() {
         if (target.length) {
             event.preventDefault();
             $('html, body').stop().animate({
-                scrollTop: target.offset().top + 1
+                scrollTop: target.offset().top
             }, 500);
         }
     });	
@@ -18,6 +18,10 @@ $(document).ready(function() {
         $('.section').each(function() {
             var target = $(this).offset().top;
             var id = $(this).attr('id');
+            if (id != "home") {
+            	position += 1;
+            }
+
 
             if (position >= target) {
                 $('#navUl > li > a').removeClass('active');
