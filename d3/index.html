@@ -97,7 +97,7 @@
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
         // load data
-        d3.csv("winequality-red.csv", function(error, data) {
+        d3.csv("csv/winequality-red.csv", function(error, data) {
             if (error) throw error;
 
             // change string (from CSV) into number format
@@ -157,7 +157,7 @@
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        d3.csv("winequality-white.csv", function(error, data) {
+        d3.csv("csv/winequality-white.csv", function(error, data) {
             if (error) throw error;
 
             // change string (from CSV) into number format
