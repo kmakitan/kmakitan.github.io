@@ -68,7 +68,7 @@ h1 {
 
 #homeContainer {
     position: relative;
-    top: 50%;
+    top: calc(50%-100px);
     transform: translateY(-50%);
     width: 400px;
     margin: auto;
