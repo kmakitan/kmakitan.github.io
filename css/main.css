@@ -248,7 +248,7 @@ h4 {
 }
 
 .projImg {
-	width: 100%;
+    width: 100%;
 }
 
 .projectContainer figure figcaption {
@@ -425,7 +425,7 @@ h4 {
     .xpRight {
         display: none;
     }
-    .xpLeft{
+    .xpLeft {
         width: 100%;
         margin-left: 14px
     }
