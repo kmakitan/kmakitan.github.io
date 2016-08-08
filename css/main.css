@@ -297,7 +297,7 @@ h4 {
 /* Contact */
 
 #contactBody {
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
@@ -331,7 +331,160 @@ h4 {
     padding-top: 100px
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (min-width: 680px) and (max-width: 1080px) {
+     /*----------------Navigation----------------*/
+    p {
+        font-size: 16px;
+    }
+    li {
+        font-size: 16px;
+    }
+    h4 {
+        text-align: center;
+    }
+    #open {
+        position: fixed;
+    }
+    .closebtn {
+        display: initial;
+    }
+    #open {
+        display: initial;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s
+    }
+    .sidenav a:hover,
+    .offcanvas a:focus {
+        color: #f1f1f1;
+    }
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    /*Sections*/
+    .secDiv {
+        width: 90%;
+    }
+    /*----------------Home----------------*/
+    #homeContainer {
+        width: 80%;
+    }
+    #homeContainer p {
+        letter-spacing: 20px;
+        margin-right: -20px;
+    }
+    #homeLine {
+        max-width: 400px;
+        margin: auto;
+    }
+    /*----------------Profile----------------*/
+    /*Left*/
+    #left {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+    #left p {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    #profileHeading {
+        text-align: center;
+    }
+    /*Profile Picture*/
+    #me {
+        width: 20%;
+        height: 20%;
+        float: none;
+    }
+    /*Right*/
+    #right {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+    }
+    #detailsUl li {
+        margin-bottom: 6px;
+    }
+    /*----------------Experiences----------------*/
+    .jobTitle {
+        display: initial;
+    }
+    #experiencesBody {
+        text-align: left;
+    }
+    #experiencesBody p {
+        margin-left: 40px
+    }
+    #experiencesBody h4 {
+        margin-left: 40px;
+    }
+    .xpLeft {
+        width: 100%;
+        margin-left: 14px;
+        line-height: 26px;
+    }
+    .xpLeft strong {
+        font-size: 20px;
+    }
+    .xpRight {
+        display: none;
+    }
+    /*----------------Projects----------------*/
+    .projectContainer {
+        width: 80%;
+        max-width: 400px;
+        float: none;
+        padding: 0;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .projectContainer figure figcaption {
+        padding: 20px;
+    }
+    /*----------------Contact----------------*/
+    #contactBody {
+        width: 80%;
+    }
+    #contactBody ul li {
+        height: 46px;
+    }
+    #contactBody ul li img{
+        width: 40px;
+        height: 40px;
+    }
+    #contactBody ul li a{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 679px) {
     /*----------------Navigation----------------*/
     p {
         font-size: 14px;
