@@ -199,6 +199,10 @@ h4 {
 
 /* Experiences */
 
+.jobTitle {
+    display: none;
+}
+
 #experiencesBody h4 {
     text-align: left;
 }
@@ -418,16 +422,48 @@ h4 {
         letter-spacing: 20px;
         margin-right: -20px;
     }
-    /*Experiences*/
+    /*----------------Experiences----------------*/
+    .jobTitle {
+        display: initial;
+    }
+    #experiencesBody {
+        text-align: left;
+    }
+    #experiencesBody p {
+        margin-left: 14px
+    }
     #experiencesBody h4 {
         margin-left: 14px;
+    }
+    .xpLeft {
+        width: 100%;
+        margin-left: 14px;
+        line-height: 26px;
+    }
+    .xpLeft strong {
+        font-size: 20px;
     }
     .xpRight {
         display: none;
     }
-    .xpLeft {
+    /*----------------Projects----------------*/
+    .projectContainer {
+        width: 80%;
+        float: none;
+        padding: 0;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    /*----------------Contact----------------*/
+    #contactBody {
         width: 100%;
-        margin-left: 14px
+    }
+    #contactBody ul li img{
+        width: 24px;
+        height: 24px;
+    }
+    #contactBody ul li a{
+        font-size: 12px;
     }
 }
 
