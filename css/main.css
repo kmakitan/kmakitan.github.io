@@ -388,6 +388,18 @@ h4 {
     .secDiv {
         width: 90%;
     }
+    /*----------------Home----------------*/
+    #homeContainer {
+        width: 80%;
+    }
+    #homeContainer p {
+        letter-spacing: 20px;
+        margin-right: -20px;
+    }
+    #homeLine {
+        max-width: 400px;
+        margin: auto;
+    }
     /*----------------Profile----------------*/
     /*Left*/
     #left {
@@ -396,13 +408,17 @@ h4 {
         text-align: center;
         padding-left: 0;
     }
+    #left p {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
     #profileHeading {
         text-align: center;
     }
     /*Profile Picture*/
     #me {
-        width: 100px;
-        height: 100px;
+        width: 20%;
+        height: 20%;
         float: none;
     }
     /*Right*/
@@ -414,13 +430,6 @@ h4 {
     }
     #detailsUl li {
         margin-bottom: 6px;
-    }
-    #homeContainer {
-        width: 80%;
-    }
-    #homeContainer p {
-        letter-spacing: 20px;
-        margin-right: -20px;
     }
     /*----------------Experiences----------------*/
     .jobTitle {
@@ -449,18 +458,25 @@ h4 {
     /*----------------Projects----------------*/
     .projectContainer {
         width: 80%;
+        max-width: 400px;
         float: none;
         padding: 0;
         margin: auto;
         margin-bottom: 30px;
     }
+    .projectContainer figure figcaption {
+        padding: 10px;
+    }
     /*----------------Contact----------------*/
     #contactBody {
         width: 100%;
     }
+    #contactBody ul li {
+        height: 32px;
+    }
     #contactBody ul li img{
-        width: 24px;
-        height: 24px;
+        width: 36px;
+        height: 36px;
     }
     #contactBody ul li a{
         font-size: 12px;
