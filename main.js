@@ -9,12 +9,9 @@ $(document).ready(function() {
         }
     });
 
-
     //Scroll Highlight
     $(window).scroll(function() {
-
         var position = $(this).scrollTop();
-
         var result = $("#home").height();
         console.log(position);
         console.log(result);
@@ -28,36 +25,10 @@ $(document).ready(function() {
             }
 
 
-
-
-
-
             if (position >= target) {
                 $('#navUl > li > a').removeClass('active');
                 $('#navUl > li > a[href=\"#' + id + '\"]').addClass('active');
             }
         });
     });
-
-<<<<<<< HEAD: js/main.js
-    
-=======
-    $(function() {
-        var pull = $('#pull');
-        menu = $('nav ul');
-        menuHeight = menu.height();
-
-        $(pull).on('click', function(e) {
-            e.preventDefault();
-            menu.slideToggle();
-        });
-    });
-
-    $(window).resize(function() {
-        var w = $(window).width();
-        if (w > 320 && menu.is(':hidden')) {
-            menu.removeAttr('style');
-        }
-    });
->>>>>>> 913ef253265607513ad56e5b565c9a83da0f3e2f:index.js
 });
