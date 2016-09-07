@@ -255,36 +255,35 @@ h4 {
     width: 100%;
 }
 
-.projectContainer figure figcaption {
-    text-align: left;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.9);
-    color: white;
-    padding: 30px 30px;
-    opacity: 0;
-    bottom: 0;
-    left: -30%;
-    -webkit-transition: all 0.6s ease;
-    -moz-transition: all 0.6s ease;
-    -o-transition: all 0.6s ease;
-}
-
-.projectContainer figure figcaption a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.projectContainer figure:hover figcaption {
-    opacity: 1;
-    left: 0;
-}
-
-.projectContainer figure figcaption h3 {
-    font-weight: bold;
+@media screen and (min-width: 1081px) {
+    .projectContainer figure figcaption {
+        text-align: left;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.9);
+        color: white;
+        padding: 30px 30px;
+        opacity: 0;
+        bottom: 0;
+        left: -30%;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+    }
+    .projectContainer figure figcaption a {
+        text-decoration: none;
+        color: inherit;
+    }
+    .projectContainer figure:hover figcaption {
+        opacity: 1;
+        left: 0;
+    }
+    .projectContainer figure figcaption h3 {
+        font-weight: bold;
+    }
 }
 
 .goTo {
@@ -332,7 +331,7 @@ h4 {
 }
 
 @media screen and (min-width: 680px) and (max-width: 1080px) {
-     /*----------------Navigation----------------*/
+    /*----------------Navigation----------------*/
     p {
         font-size: 16px;
     }
@@ -475,11 +474,11 @@ h4 {
     #contactBody ul li {
         height: 46px;
     }
-    #contactBody ul li img{
+    #contactBody ul li img {
         width: 40px;
         height: 40px;
     }
-    #contactBody ul li a{
+    #contactBody ul li a {
         font-size: 16px;
     }
 }
@@ -627,11 +626,11 @@ h4 {
     #contactBody ul li {
         height: 32px;
     }
-    #contactBody ul li img{
+    #contactBody ul li img {
         width: 36px;
         height: 36px;
     }
-    #contactBody ul li a{
+    #contactBody ul li a {
         font-size: 12px;
     }
 }
