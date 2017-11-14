@@ -98,7 +98,7 @@ h1 {
     margin: 0;
     text-align: center;
     font-size: 10px;
-    letter-spacing: 38px;
+    letter-spacing: 20px;
     margin-right: -38px;
 }
 
@@ -229,9 +229,12 @@ h4 {
 }
 
 #BS-link {
-  color: inherit;
+  color: white;
 }
 
+.xpRight a{
+	color: white;
+}
 
 /* Project */
 
@@ -459,7 +462,7 @@ h4 {
         font-size: 20px;
     }
     .xpRight {
-        display: none;
+        width: 90%;
     }
     /*----------------Projects----------------*/
     .projectContainer {
@@ -551,7 +554,7 @@ h4 {
         width: 80%;
     }
     #homeContainer p {
-        letter-spacing: 20px;
+        letter-spacing: 15px;
         margin-right: -20px;
     }
     #homeLine {
@@ -611,7 +614,7 @@ h4 {
         font-size: 20px;
     }
     .xpRight {
-        display: none;
+        /*display: none;*/
     }
     /*----------------Projects----------------*/
     .projectContainer {
