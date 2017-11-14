@@ -614,7 +614,7 @@ h4 {
         font-size: 20px;
     }
     .xpRight {
-        /*display: none;*/
+        width: 90%;
     }
     /*----------------Projects----------------*/
     .projectContainer {
