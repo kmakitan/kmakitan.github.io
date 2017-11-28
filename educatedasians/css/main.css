@@ -1,0 +1,51 @@
+body {
+    width: 1000px;
+    margin: auto;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+#intro {
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+.section {
+    width: 100%;
+    height: 350px;
+}
+
+#skate1 {
+    width: 50%;
+    float: left;
+}
+
+#skate2 {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.skateimg {
+    height: 200px;
+}
+
+#right {
+    width: 50%;
+    float: left;
+}
+
+#left {
+    width: 50%;
+    float: left;
+}
+
+.gallery {
+    width: 20%;
+    float: left;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
