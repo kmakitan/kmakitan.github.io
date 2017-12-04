@@ -17,7 +17,6 @@ html {
 
 body {
     margin: 0px;
-    overflow-x: hidden;
 }
 
 .closebtn {
@@ -75,7 +74,6 @@ h1 {
 
 #home {
     height: 100vh;
-    overflow: hidden;
     padding-top: 0px;
 }
 
@@ -85,7 +83,26 @@ h1 {
     transform: translateY(-50%);
     width: 400px;
     margin: auto;
-    z-index: -2;
+    text-align: center;
+}
+
+#buttonlink{
+    background-color: transparent;
+    color: white;
+    padding: 10px 16px;
+    border-color: none;
+    border-style: solid;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+
+#buttonlink:hover {
+    color: black;
+    background-color: white;
+}
+
+#buttonlink:focus {
+    outline:0;
 }
 
 #homeLine {
@@ -244,9 +261,9 @@ h4 {
 }
 
 .projectContainer {
-    width: calc(50% - 60px);
-    float: left;
     padding: 30px;
+    max-width: 400px;
+    margin: auto;
 }
 
 .projectContainer figure {
@@ -258,6 +275,10 @@ h4 {
     height: 100%;
 }
 
+.projectContainer figure a:hover{
+    opacity: 0.7;
+}
+
 .projImg {
     width: 100%;
 }
@@ -267,29 +288,7 @@ h4 {
     color: inherit;
 }
 
-.projectContainer figure:hover figcaption {
-    opacity: 1;
-    left: 0;
-}
-
 @media screen and (min-width: 1081px) {
-    .projectContainer figure figcaption {
-        text-align: left;
-        top: 0px;
-        left: 0px;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        background: rgba(0, 0, 0, 0.9);
-        color: white;
-        padding: 30px 30px;
-        opacity: 0;
-        bottom: 0;
-        left: -30%;
-        -webkit-transition: all 0.6s ease;
-        -moz-transition: all 0.6s ease;
-        -o-transition: all 0.6s ease;
-    }
     .projectContainer figure figcaption h3 {
         font-weight: bold;
     }
