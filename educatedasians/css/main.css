@@ -57,6 +57,15 @@ body {
 
 #download h1 {
     border: solid;
-    color: turquoise;
-    border-color: turquoise;
+    color: #3366ff;
+    border-color: #3366ff;
+}
+
+#tutorials a {
+    text-decoration: none;
+    text-align: center;
+}
+
+#tutorials p {
+    color: #3366ff;
 }
