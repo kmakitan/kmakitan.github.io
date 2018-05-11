@@ -266,7 +266,7 @@ h4 {
     margin: auto;
 }
 
-.projectContainer figure {
+.container {
     position: relative;
     display: block;
     overflow: hidden;
@@ -275,15 +275,15 @@ h4 {
     height: 100%;
 }
 
-.projectContainer figure a:hover{
-    opacity: 0.7;
+.container:hover .overlay{
+    opacity: 0.94;
 }
 
 .projImg {
     width: 100%;
 }
 
-.projectContainer figure figcaption a {
+.caption a {
     text-decoration: none;
     color: inherit;
 }
@@ -293,8 +293,41 @@ h4 {
     font-weight: bold;
 }
 
+.container {
+    position: relative;
+    max-height: 300px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .35s ease;
+    background-color: black;
+}
+.view {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-color: none;
+    border-style: solid;
+    border-width: 2px;
+    width: 100px;
+}
+
 @media screen and (min-width: 1081px) {
-    .projectContainer figure figcaption h3 {
+    .caption h3 {
         font-weight: bold;
     }
 }
@@ -477,8 +510,11 @@ h4 {
         margin: auto;
         margin-bottom: 30px;
     }
-    .projectContainer figure figcaption {
+    .caption {
         padding: 20px;
+    }
+    .overlay {
+        display: none;
     }
     /*----------------Contact----------------*/
     #contactBody {
@@ -629,8 +665,11 @@ h4 {
         margin: auto;
         margin-bottom: 30px;
     }
-    .projectContainer figure figcaption {
+    .caption {
         padding: 10px;
+    }
+    .overlay {
+        display: none;
     }
     /*----------------Contact----------------*/
     #contactBody {
