@@ -517,6 +517,9 @@ h4 {
     .overlay {
         display: none;
     }
+    .projImg {
+        width: 90%;
+    }
     /*----------------Contact----------------*/
     #contactBody {
         width: 80%;
@@ -671,6 +674,9 @@ h4 {
     }
     .overlay {
         display: none;
+    }
+    .projImg {
+        width: 90%;
     }
     /*----------------Contact----------------*/
     #contactBody {
