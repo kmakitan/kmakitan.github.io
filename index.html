@@ -1,334 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<title>Kenzo Makitani</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Author" content="Kenzo Makitani">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="main.js"></script>
-    <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" >
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Open+Sans:300i,400|Playfair+Display:400i" rel="stylesheet">
 
-    ga('create', 'UA-82229468-1', 'auto');
-    ga('send', 'pageview');
-    </script>
-    <link rel="shortcut icon" href="images/icon.png">
+    <title>Kenzo Makitani </title>
 </head>
-
 <body>
-    <nav id="navUl" class="sidenav">
-        <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
-        <li><a class="active" href="#home">HOME</a></li>
-        <li><a href="#profile">PROFILE</a></li>
-        <li><a href="#experiences">EXPERIENCES</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-    </nav>
-    <span id="open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-    <!--Background image-->
-    <img id="BG" src="images/background.jpg" alt="Scenic Background">
-    <!--End Background image-->
-    <!--Home Section-->
-    <div id="home" class="section">
-        <div id="homeContainer">
-            <div id="homeLine"></div>
-            <h1>KENZO MAKITANI</h1>
-            <div id="homeLine"></div>
-            <p><strong>UX/UI DESIGN</strong></p>
-            <a href="downloads/kenzomakitaniresume.pdf" download><button id="buttonlink" ><strong>DOWNLOAD RESUME</strong></button></a>
-        </div>
-    </div>
-    <!--End Home Section-->
-    <div id="blueTrans">
-        <!--Profile Section-->
-        <div id="profile" class="secDiv section">
-            <div id="profileHead" class="headContainer">
-                <h2>PROFILE</h2>
-                <h3>Pursuing Web, UI and UX Development</h3>
-                <div>
-                    <div class="whiteLine"></div><img class="whiteCross" src="images/X.png" alt="white cross">
-                    <div class="whiteLine"></div>
-                </div>
-            </div>
-            <div id="profileBody" class="bodyContainer">
-                <div id="left">
-                    <h4 id="profileHeading">About Me</h4>
-                    <p>During my freetime I enjoy playing highly skilled and tactical games like PUBG, watching the Warriors beat the Cavs, and eating ramen at one of downtown San Mateo’s many locations.  I am also a huge collector when it comes to underground music especially in the genres of future bass, rap and hip hop.</p>
-                </div>
-                <img id="me" src="images/Me.png" alt="Kenzo's face">
-                <div id="right">
-                    <h4>Details</h4>
-                    <ul id="detailsUl">
-                        <li><strong>Name:</strong>
-                            <br>Kenzo Makitani</li>
-                        <li><strong>School:</strong>
-                            <br>University of California, Irvine</li>
-                        <li><strong>Major:</strong>
-                            <br>Informatics</li>
-                        <li><strong>Specialization:</strong>
-                            <br>Human Computer Interaction</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!--End Profile Section-->
-        <!--Experiences Section-->
-        <div id="experiences" class="secDiv section">
-            <div id="experiencesHead" class="headContainer">
-                <h2>EXPERIENCES</h2>
-                <h3>The Opportunities That Shaped and Built Me</h3>
-                <div>
-                    <div class="whiteLine"></div><img class="whiteCross" src="images/X.png" alt="white cross">
-                    <div class="whiteLine"></div>
-                </div>
-            </div>
-            <div id="experiencesBody" class="bodyContainer">
-                <h4>EDUCATION</h4>
-                <p class="xpLeft"><strong>University of California, Irvine</strong>
-                    <br>
-                    <span class="jobTitle">Bachelor of Science - Informatics</span>
-                    <br> Class of 2018
-                    <br>
-                    <img src="images/Marker.png" alt="marker">Irvine, CA</p>
-                <p class="xpRight"><strong>Bachelor of Science - Informatics (Specialization: Human Computer Interaction)</strong>
-                    <br> Informatics, the field you&#39;ve never heard of is used daily in our lives. How we design technology, how we interact with it and how it affects us is studied in the course. Specializing in Human Computer Interaction examines how existing technologies shape our behavior and how we can design future technologies that better fit our practices.</p>
-                <h4>CAREERS</h4>
-                <p class="xpLeft"><strong>IdentifiBio</strong>
-                    <br>
-                    <span class="jobTitle">UX/UI Designer</span>
-                    <br> October 2017 - March 2018
-                    <br>
-                    <img src="images/Marker.png" alt="marker">Irvine, CA</p>
-                <p class="xpRight"><strong>UX/UI Designer</strong>
-                    <br>- Designed UI mockups for mobile app functionalities such as scheduling, document upload, and signing in Figma<br>
-                    - Conducted user testing on prototypes created in InVision and Origami Studio, and refined the interface based on results<br>
-                    - Worked closely with team members from start to finish to deliver a polished demonstrable product<br>
-                    - <strong>Ingenuity UCI Student Technology Showcase Award</strong><br><br>
-					<strong>Tech:</strong> Figma, InVision, Swift, XCode<br></p>
-                <p class="xpLeft"><strong>Benefit One</strong>
-                    <br>
-                    <span class="jobTitle">UX/UI Design Intern</span>
-                    <br> July 2017 - August 2017
-                    <br>
-                    <img src="images/Marker.png" alt="marker">Tokyo, Japan</p>
-                <p class="xpRight"><strong>UX/UI Design Intern</strong>
-                    <br>- Proposed a mobile webpage redesign which addressed problems with usability, learnability and information architecture<br>
-                    - Designed mockups in Figma and conducted light user testing on functional prototypes created in Origami Studio<br>
-                    - Communicated design decisions to designers and developers in the team through presentations<br>
-                    - Theorized and practiced a systematic iterative development workflow which was effective and efficient<br>
-                    - Learned and experienced Japanese business culture by attending sales meetings and business lectures<br><br>
-					<strong>Tech:</strong> Figma, Origami Studio, Atomic.io, iOS
-				</p>
-                <p class="xpLeft"><strong>Stanford University Web Services</strong>
-                    <br>
-                    <span class="jobTitle">Web Services Intern</span>
-                    <br> June 2016 - September 2016
-                    <br>
-                    <img src="images/Marker.png" alt="marker">Stanford, CA</p>
-                <p class="xpRight"><strong>Web Services Intern</strong>
-                    <br>- Helped administer user testing on Balsamiq prototypes while using eye-tracking and screen recording software<br>
-                    - Assisted developers with various tasks such as programming quality assurance test cases in Behat, coding and designing email templates, and integrating developer tools such as Code Climate<br>
-                    - Maintained websites by fixing visual bugs and updated content, using Drupal<br><br>
-					<strong>Tech:</strong> Behat, Foundations, Balsamiq, InVision, User Testing, Zapier, Code Climate, Zapier, Webhooks, CSS, Drupal, JIRA
-				</p>
-                <p class="xpLeft"><strong>EnvoyNow</strong>
-                    <br>
-                    <span class="jobTitle">Ad Designer</span>
-                    <br> January 2016 - June 2016
-                    <br>
-                    <img src="images/Marker.png" alt="marker">Irvine, CA</p>
-                <p class="xpRight"><strong>Ad Designer</strong>
-                    <br>- Keen eye for detail while using Adobe InDesign and Photoshop to create Ads for the company<br><br>
-					<strong>Tech:</strong> Adobe InDesign, Photoshop
-				</p>
-                <p class="xpLeft"><strong>iD Tech Camps</strong>
-                    <br>
-                    <span class="jobTitle">Instructor</span>
-                    <br> June 2015 - September 2015
-                    <br>
-                    <img src="images/Marker.png" alt="marker">Stanford, CA</p>
-                <p class="xpRight"><strong>Instructor</strong>
-                    <br>- Taught basic Java and the core principles of Object Oriented Programming to teenage tech enthusiasts<br>
-					- Cooperated with other instructors and directors to solve logistical and technical issues that arose during camp<br><br>
-					<strong>Tech:</strong> Java, Eclipse, MineCraft Forge
-				</p>
-                <p class="xpLeft"><strong>Digital Media Academy</strong>
-                    <br>
-                    <span class="jobTitle">Instructor's Assistant &#38; Counselor</span>
-                    <br> June 2014 - September 2014
-                    <br>
-                    <img src="images/Marker.png" alt="marker">Stanford, CA</p>
-                <p class="xpRight"><strong>Instructor's Assistant &#38; Counselor</strong>
-                    <br>- Assisted the instructor in teaching the course material for programming and cinematography classes<br>
-					- Work as a team to successfully lead daily outside eventsM<br><br>
-					<strong>Tech:</strong> GameSalad, Adobe Premiere
-				</p>
-            </div>
-        </div>
-        <!--End Experiences Section-->
-        <!--Projects Section-->
-        <div id="projects" class="secDiv section">
-            <div id="projectsHead" class="headContainer">
-                <h2>PROJECTS</h2>
-                <h3>Abstract to Application</h3>
-                <div>
-                    <div class="whiteLine"></div><img class="whiteCross" src="images/X.png" alt="white cross">
-                    <div class="whiteLine"></div>
-                </div>
-            </div>
-            <div id="projectsBody" class="bodyContainer">
-                 <!-- Real Estate App Design -->
-                <div class="projectContainer">
-                	<h3>Real Estate App Design</h3>
-                	<div class="container">
-                    	<a href="https://www.figma.com/file/WLGNjYGwd5NcFpkHO4MQHCDl/Single-Scene-Interactions"><img class="projImg" src="images/RealEstate.png" alt="Real Estate App screenshot"></a>
-                    	<div class="overlay"><a class="view" href="https://www.figma.com/file/WLGNjYGwd5NcFpkHO4MQHCDl/Single-Scene-Interactions">VIEW</a></div>
-                	</div>
-                    <div class="caption">
-                        <p>View the prototype designs for a made-up real estate app I made in Origami Studio.</p>
-                        <p><a href="downloads/RealEstate.origami"><u>Click here to download the Origami file</u></a><br>*Works best on iPhone 8*<p>
-                        <p><a href="os-instructions/index.html"><u>Instructions for opening Origami files on your device</u></a></p>
-                        <p><strong>Tech: </strong> Figma, Origami Studio</p>
-                    </div>
-                </div>
-                 <!-- Party PUBG -->
-                <div class="projectContainer">
-                	<h3>Party PUBG</h3>
-                	<div class="container">
-                    	<a href="https://xd.adobe.com/view/d240995a-1f11-4cca-5119-022a57b1a2b9-a471/"><img class="projImg" src="images/PartyPUBG.png" alt="Party PUBG screenshot"></a>
-                    	<div class="overlay"><a class="view" href="https://xd.adobe.com/view/d240995a-1f11-4cca-5119-022a57b1a2b9-a471/">VIEW</a></div>
-                	</div>
-                    <div class="caption">
-                        <p>Play around with a one day prototype project I made in Adobe XD which lets players find others to play with.</p>
-                        <p><strong>Tech: </strong> Adobe XD</p>
-                    </div>
-                </div>
-                 <!-- Senior Design Project -->
-                <div class="projectContainer">
-                	<h3>Senior Design Project</h3>
-                	<div class="container">
-                    	<a href="downloads/IdentifiBioMockups.zip"><img class="projImg" src="images/inf191.png" alt="Senior Design Project screenshot"></a>
-                    	<div class="overlay"><a class="view" href="downloads/IdentifiBioMockups.zip">DOWNLOAD</a></div>
-                	</div>
-                    <div class="caption">
-                        <p>View the designs of my patient-side system created for my system senior design project.</p>
-                        <p><a href="downloads/SeniorDesign.origami"><u>Download the Origami file</u></a><br>*Works best on iPhone 8*<p>
-                        <p><a href="os-instructions/index.html"><u>Instructions for opening Origami files on your device</u></a></p>
-                        <p><strong>Tech: </strong> Figma, Origami Studio</p>
-                    </div>
-                </div>
-                <!-- Portfolio -->
-                <div class="projectContainer">
-                	<h3>Portfolio User Research and Testing</h3>
-                    <div class="container">
-                        <a href="inf133/index.html"><img class="projImg" src="images/inf133.png" alt="Portfolio screenshot"></a>
-                        <div class="overlay"><a class="view" href="inf133/index.html">VIEW</a></div>
-                    </div>
-                    <div class="caption">
-                            <p>A link to a documentation explaining the user research and testing behind this website.</p>
-                            <p><strong>Tech: </strong>User Research, Testing, UsabilityHub</p>
-                    </div>
-                </div>
-                <!-- Benefit One -->
-                <div class="projectContainer">
-                	<h3>Benefit One</h3>
-                    <div class="container">
-                        <a href="https://drive.google.com/open?id=0B5kOYIcHxC1VWlVuUURSOXV0T0E"><img class="projImg" src="images/BenefitOne.png" alt="Benefit One screenshot"></a>
-                        <div class="overlay"><a class="view" href="https://drive.google.com/open?id=0B5kOYIcHxC1VWlVuUURSOXV0T0E">VIEW</a></div>
-                    </div>
-                    <div class="caption">
-                        <p>View the final designs of the Homepage redesign I created for my summer internship at Benefit One in Japan.</p>
-                        <p><a href="downloads/BenefitOneHome.origami"><u>Download the Origami file</u></a><br>*Works best on iPhone 8*<p>
-                        <p><a href="os-instructions/index.html"><u>Instructions for opening Origami files on your device</u></a></p>
-                        <p><strong>Tech: </strong>Origami Studio, Figma, Atomic.io</p>
-                    </div>
-                </div>
-                <div id="projectsBody" class="bodyContainer">
-                 <!-- Senior Design Project -->
-                <div class="projectContainer">
-                	<h3>Skype Usability Analysis and Redesign</h3>
-                    <div class="container">
-                        <a href="https://drive.google.com/open?id=0B5kOYIcHxC1VSVh5cHY0bTdvaFU"><img class="projImg" src="images/skyperedesign.png" alt="Project in HCI screenshot"></a>
-                        <div class="overlay"><a class="view" href="https://drive.google.com/open?id=0B5kOYIcHxC1VSVh5cHY0bTdvaFU">VIEW</a></div>
-                    </div>
-                    <div class="caption">
-                        <p>View the documentation and designs for a Skype Redesign project done for class, complete with usability testing and user research.</p>
-                        <p><strong>Tech: </strong>Figma</p>
-                    </div>
-                </div>
-                <!-- Kabapacn -->
-                <div class="projectContainer">
-                	<h3>Kaba PACN</h3>
-                    <div class="container">
-                        <a href="images/singlepage2.jpg"><img class="projImg" src="images/kabapacn.png" alt="kabapacn screenshot"></a>
-                        <div class="overlay"><a class="view" href="https://drive.google.com/open?id=0B5kOYIcHxC1VSVh5cHY0bTdvaFU">VIEW</a></div>
-                    </div>
-                    <div class="caption">
-                        <p>A website created during a project management class to promote UCI’s Kababayan culture night.  The website is no longer hosted so there is a link to a photo of what it looked like instead.</p>
-                        <p><strong>Tech: </strong>HTML, CSS, Sublime</p>
-                    </div>
-                </div>
-                <!-- EnvoyNow -->
-                <div class="projectContainer">
-                	<h3>EnvoyNow</h3>
-                    <div class="container">
-                        <a href="envoynow/envoyNow.zip"><img class="projImg" src="images/EnvoyNow.jpg" alt="EnvoyNow screenshot"></a>
-                        <div class="overlay"><a class="view" href="envoynow/envoyNow.zip">DOWNLOAD</a></div>
-                    </div>
-                    <div class="caption">
-                        <p>A zip file including some of the advertisement designs I created for the startup EnvoyNow.  Click the image to download the zip file.</p>
-                        <p><strong>Tech: </strong>InDesign, Photoshop</p>
-                    </div>
-                </div>
-                <!-- KM Shojis -->
-                <!--<div class="projectContainer">
-                    <figure>
-                        <img class="projImg" src="images/KMShojis.jpg" alt="KMShojis screenshot">
-                        <figcaption>
-                            <h3>KMShojis</h3>
-                            <p><em>Currently unavailable</em></p>
-                            <p>The first website I ever created for a fictional business.</p>
-                            <p><strong>Tech:</strong>
-                                <br>HTML, CSS, DreamWeaver</p>
-                        </figcaption>
-                    </figure>
-                </div>-->
-            </div>
-        </div>
-        <!--End Projects Section-->
-        <!--Contact Section-->
-        <div id="contact" class="secDiv section">
-            <div id="contactHead" class="headContainer">
-                <h2>CONTACT</h2>
-                <h3>Expanding My Professional Network</h3>
-                <div>
-                    <div class="whiteLine"></div><img class="whiteCross" src="images/X.png" alt="white cross">
-                    <div class="whiteLine"></div>
-                </div>
-            </div>
-            <div id="contactBody" class="bodyContainer">
-                <ul>
-                    <li><img src="images/EmailIcon.png" alt="email icon"><a href="mailto:Kenzosmakitani@gmail.com">Contact me via email</a></li>
-                    <li><img src="images/GitHubIcon.png" alt="github icon"><a href="https://github.com/kmakitan">See my code</a></li>
-                    <li><img src="images/LinkedInIcon.png" alt="LinkedIn icon"><a href="https://www.linkedin.com/in/kenzomakitani">Connect with me</a></li>
+    <nav class="navbar navbar-light navbar-expand-sm fixed-top bg-inverse navbar-inverse">
+        <div class="container-fluid" id="nav-container">
+            <a href="index.html"><img id="nav-logo" src="images/LogoSmall.png" width="50" height="50"/></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end text-right" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                        <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item dd-override" href="portfolio/BenefitOne/index.html">Benefit One</a>
+                            <a class="dropdown-item dd-override" href="portfolio/IdentifiBio/index.html">Identifi Bio</a>
+                            <a class="dropdown-item dd-override" href="portfolio/ClimateLens/index.html">Climate Lens</a>
+                            <a class="dropdown-item dd-override" href="portfolio/PortfolioRedesign/index.html">Portfolio Redesign</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume/index.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about/index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact/index.html">Contact</a>
+                    </li>
                 </ul>
             </div>
         </div>
-        <!--End Contact Section-->
+    </nav>
+    <div class="parallax"><div class="opacity"></div></div>
+    <div class="container intro">
+        <h3 id="subtitle1">Hi, my name is</h3>
+        <h1 id="name" >KENZO MAKITANI</h1>
+        <h3 id="subtitle2">I am pursuing UX/UI Design & Research</h3>
     </div>
-</body>
+    <div class="title-container">
+        <h1 class="text-center title">PORTFOLIO</h1>
+    </div>
+    <!-- Benefit One -->
+    <div class="jumbotron jumbotron-fluid portfolio-item" id="BO">
+        <div class="container project-container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-5 project-info-container offset-md-1">
+                    <div class="project-info">
+                        <h3>Benefit One</h3>
+                        <p>A welfare company in Japan with an overdue mobile redesign.</p>
+                        <p class="project-tag">User Research, Testing, Design</p>
+                        <button class="btn"><a href=#">VIEW DETAILS</a></button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 project-image-container">
+                    <img class="project-image" src="images/BenefitOnePhone.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Identifi Bio -->
+    <div class="jumbotron jumbotron-fluid portfolio-item" id="IB">
+        <div class="container project-container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-5 project-info-container offset-md-1">
+                    <div class="project-info">
+                        <h3 class="text-white">Identifi Bio</h3>
+                        <p class="text-white">Expediting the healthcare process and bringing patients closer to their physicians.</p>
+                        <p class="project-tag text-white">User Research, Design</p>
+                        <button class="btn btn-white"><a href=#">VIEW DETAILS</a></button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 project-image-container" id="identifi-bio-image">
+                    <img class="project-image" src="images/IdentifiBioPhone.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Climate Lens -->
+    <div class="jumbotron jumbotron-fluid portfolio-item" id="CL">
+        <div class="container project-container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-5 project-info-container offset-md-1">
+                    <div class="project-info">
+                        <h3>Climate Lens</h3>
+                        <p>A global conscience for a global situation.</p>
+                        <p class="project-tag">User Research, Testing</p>
+                        <button class="btn"><a href=#">VIEW DETAILS</a></button>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 project-image-container" id="climate-lens-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
+    <!-- Footer -->
+    <div id="footer">
+        <div id="linkedin"><a href="https://www.linkedin.com/in/kenzomakitani/"><img src="images/linkedin.png"/></a></div>
+        <div id="footer-logo"><a href="index.html"><img src="images/LogoSmall.png" width="80" height="80" ></a></div>
+        <div id="copyright"><p>&#169; 2018 Kenzo Makitani</p></div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>

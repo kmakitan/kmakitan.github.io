@@ -1,0 +1,686 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Text font & sizes */
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;	
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	margin-top: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+p {
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+button.btn a {
+	font-size: 12px;	
+}
+
+.title-container {
+		text-align: center;
+		padding: 20px 0px;
+	}
+
+.title {
+	font-weight: 300;
+	border-bottom: 1px solid black;
+	display: inline;
+}
+.half-page-image {
+	max-width: 250px;
+}
+
+/* Navigation */
+nav {
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
+	height: 60px;
+}
+
+
+.navbar {
+	padding: 0;
+}
+
+#nav-container {
+	height: 50px;
+}
+
+#navbarSupportedContent {
+	width: 100%;
+	background-color: white;
+}
+
+#nav-logo {
+	padding: 0px;
+	margin-left: 5px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+	padding: 5px 1rem;
+}
+
+.navbar-toggler {
+	border: 0px;
+}
+
+.navbar-nav .nav-item {
+	padding: 0px;
+}
+
+.navbar-nav .nav-item .nav-link {
+	color: black;
+}
+
+.nav-item.dropdown.show {
+	padding: 0px;
+}
+
+.dropdown-menu {
+	border-radius: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+.dropdown-menu a {
+	font-size: 12px;
+}
+
+/* Button */
+button.btn {
+	background-color: unset;
+	border: 1px solid black;
+	padding: 3px 8px;
+}
+
+button.btn a{
+	color: black;
+	text-decoration: none;
+}
+
+button.btn-white {
+	border: 1px solid white;
+}
+
+button.btn-white a{
+	color: white;
+}
+/* Homepage Photo */
+.parallax {
+	background-image: url("../images/homebg.jpg");
+	height: 350px;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+
+.opacity {
+	height: 100%;
+	width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.intro {
+	height: 350px;
+	position: relative;
+	z-index: 2;
+}
+
+#name, #subtitle1, #subtitle2 {
+	text-align: center;
+	color: white;
+}
+
+#name {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+.intro h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+#subtitle1 {
+	padding-top: 150px;
+}
+
+
+/* Portfolio */
+.portfolio-item {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.project-info {
+	text-align: center;
+}
+
+.project-image-container {
+	margin-left: 0;
+	margin-right: 0;
+}
+.project-tag {
+	font-style: italic;
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+
+.project-image-container{
+	height: 100%;
+	margin-top: 20px;
+}
+
+.project-image {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.white-text {
+	color: white;
+}
+
+#BO {
+	background-color: #EEB7B7;
+
+}
+
+#IB {
+	background-color: #3D1D50;
+}
+
+#CL {
+	background-color: #97CBFD;
+}
+#climate-lens-image {
+	background-image: url("../images/ClimateLensLogo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 220px;
+	width: 220px;
+}
+#footer {
+	display: flex;
+	width: 100%;
+	height: 200px;
+	background-color: #C7C7C7;
+}
+
+#linkedin {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#linkedin img {
+	padding-left: 5px;
+}
+
+
+#footer-logo {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#copyright {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+#copyright p {
+	padding-right: 5px;
+	font-size: 9px;
+}
+
+
+/* Project Details */
+.project-page-jumbo {
+	margin-top: 60px;
+}
+
+.project-page-title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+}
+
+.project-page-h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+}
+
+#tldr {
+	margin-top: 0px;
+}
+
+.BO-page-title {
+	border-color: #FF7676;
+	color: #FF7676;
+}
+
+.IB-page-title {
+	border-color: #7D3AA6;
+	color: #7D3AA6;
+}
+
+.CL-page-title {
+	border-color: #1C7BD6;
+	color: #1C7BD6;
+}
+
+.project-page-h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	margin-bottom: 5px;
+	margin-top: 40px;
+}
+
+.container {
+	margin-right: 0px 10px;
+}
+
+.project-summary {
+	border: 1px solid black;
+	padding: 10px;
+	margin: 40px 0px;
+}
+
+.tldr-background {
+	background-color: #DCDCDC;
+	margin-bottom: 0px;
+}
+
+.project-image-wrapper {
+	text-align: center;
+}
+
+.project-details-image {
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+.body-text {
+	margin-bottom: 20px;
+}
+
+.background-text {
+	margin-top: 30px;
+}
+
+.divider {
+	background-color: #DCDCDC;
+	height: 3px;
+	width: 100%;
+	margin-top: 60px;
+}
+
+#goal {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.figma {
+	width: 100%;
+}
+
+.vimeo {
+	width: 100%;
+	height: 600px;
+}
+
+#checking-back {
+	margin-top: 30px;
+}
+
+.BO-table {
+	vertical-align: middle;
+	text-align: center;
+	margin: auto;
+}
+
+.BO-table tr td img {
+	width: 150px;
+}
+
+.button-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+
+/* resume */
+
+#title-container {
+	padding-bottom: 0px;
+}
+
+#resume-title {
+	border-color: #FFFFFF;
+}
+
+#resume-png {
+	width: 100%;
+}
+
+#resume-bg {
+	margin-top: 60px;
+	height: 100%;
+	background-color: #525659;
+	padding: 0px;
+}
+
+
+.resume-container {
+	height: 100%;
+}
+
+.download-resume {
+	margin: auto;
+}
+
+.button-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 40px 0px;
+}
+
+
+/* About */
+
+.about-bg {
+	margin-top: 60px;
+	background-image: url("../about/images/about.jpeg");
+	background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+#face-wrap {
+	text-align: center;
+}
+
+#face {
+	border-radius: 50%;
+	width: 280px;
+	height: 280px;
+}
+
+.about-text {
+	text-align: center;
+}
+
+
+#more-about-me {
+	margin-top: 50px;
+	font-weight: 600;
+}
+
+#and-my-bunny {
+	margin-top: 0px;
+	font-size: 30px;
+	font-family: 'Nanum Brush Script', cursive;
+}
+
+#more-info {
+	text-align: center;
+}
+
+#zoro-table {
+	margin: auto;
+}
+
+.zoro {
+	width: 18.75%;
+	max-width: 200px;
+	padding: 10px 5px;
+}
+
+.zoro img {
+	width: 100%;
+}
+
+
+/* Contact */
+#contact-bg {
+	margin-top: 60px;
+	background-color: #525659;
+}
+
+#contact-container {
+	max-width: 800px;
+}
+
+#contact-form {
+	color: white;
+	padding-bottom:5px;
+}
+
+.form-header {
+	padding-top: 40px;
+}
+
+.form-100 {
+	width: 100%;
+}
+
+#first-input {
+	width: 48%;
+	margin-right: 2%;
+}
+
+#last-input {
+	width: 48%;
+	margin-left: 2%;
+}
+
+#first-name {
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+	font-size: 12px;
+}
+#last-name {
+	float: left;
+	width: 48%;
+	margin-left: 2%;
+	font-size: 12px
+}
+
+#message {
+	height: 200px;
+}
+
+#submit {
+	border: none;
+	background-color: rgba(0,0,0,0);
+	color: white;
+}
+
+#send {
+	margin: auto;
+}
+
+/* Media Queries  */
+
+@media (min-width: 576px) {
+	.dd-override {
+		text-align: left;
+		padding: 8px 12px;
+		font-size: 14px;
+	}
+	.dropdown-menu {
+		border: 1px solid rgba(0,0,0,.2);
+	}
+	.navbar-nav .nav-item {
+		padding: 0px;
+	}
+	/* Titles */
+	h1 {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 48px;
+	}
+
+	h3 {
+	font-size: 36px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+
+	button.btn a {
+		font-size: 14px;	
+	}
+
+	.title-container {
+		text-align: center;
+		padding: 40px 0px;
+	}
+
+	.title {
+		font-weight: 300;
+		border-bottom: 2px solid black;
+		display: inline;
+	}
+
+	.text-white {
+		color: white;
+	}
+	/* Button */
+	button.btn {
+	background-color: unset;
+	border: 1px solid black;
+	padding: 6px 12px;
+	}
+		
+	button.btn-white {
+		border: 1px solid white;
+	}
+	button.btn.btn-white:hover {
+		background-color: rgba(0,0,0,0.6);
+	}
+
+
+	button.btn:hover {
+		background-color: rgba(255,255,255,0.7);
+	}
+
+	/* Home Banner */
+
+	.parallax {
+		height: 600px;
+	}
+
+	/* Introduction */
+	
+	.intro {
+		height: 600px;
+	}
+
+	
+	.intro h3 {
+	font-size: 22px;
+}
+
+	#subtitle1 {
+	padding-top: 250px;
+}
+
+
+	/* Portfolio */
+	.portfolio-item {
+		height: 400px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.project-container, .project-container .row, .project-container .row .project-info-container {
+		height: 100%;
+	}
+
+	.project-info-container {
+		display: table;
+	}
+
+	.project-info {
+		text-align: left;
+		display: table-cell;
+		vertical-align: middle
+	}
+
+	.project-image-container {
+		margin-top: 0px;
+	}
+
+	#climate-lens-image {
+		height: 100%;
+		width: 100%;
+	}
+
+	#linkedin img {
+		padding-left: 20px;
+	}
+	#copyright p {
+		padding-right: 20px;
+		font-size: 14px;
+	}
+
+	/* Project jumbo bg colors */
+	.BO-page-title {
+		border-color: #FF7676;
+	}
+	
+	.IB-page-title {
+		border-color: #7D3AA6;
+	}
+	.CL-page-title {
+		border-color: #1C7BD6;
+	}
+
+	#resume-title {
+		border-color: #FFFFFF;
+	}
+
+	#contact-title {
+		border-color: #FFFFFF;
+	}
+
+	/* About */
+	.about-text-container {
+		display: table;
+		height: 280px;
+	}
+
+	.about-text {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: left;
+	}
+
+}
