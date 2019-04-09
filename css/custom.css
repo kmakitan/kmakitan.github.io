@@ -2,6 +2,12 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+#body-container {
+	max-width: 1080px;
+	margin: auto;
+}
+
+
 
 /* Text font & sizes */
 h1 {
@@ -56,6 +62,7 @@ nav {
 
 #nav-container {
 	height: 50px;
+	max-width: 1080px;
 }
 
 #navbarSupportedContent {
@@ -101,22 +108,13 @@ nav {
 /* Button */
 button.btn {
 	background-color: unset;
-	border: 1px solid black;
 	padding: 3px 8px;
 }
 
 button.btn a{
-	color: black;
 	text-decoration: none;
 }
 
-button.btn-white {
-	border: 1px solid white;
-}
-
-button.btn-white a{
-	color: white;
-}
 /* Homepage Photo */
 .parallax {
 	background-image: url("../images/homebg.jpg");
@@ -202,17 +200,53 @@ button.btn-white a{
 }
 
 #BO {
-	background-color: #EEB7B7;
+	background-color: #FFFFFF;
+}
 
+#BO .project-info {
+	color: #d80d0d;
+}
+
+#BO button.btn {
+	border: 2px solid #d80d0d;
+}
+
+#BO button.btn a {
+	color: #d80d0d;
 }
 
 #IB {
-	background-color: #3D1D50;
+	background-color: #FFFFFF;
+}
+
+#IB .project-info {
+	color: #3b049b;
+}
+
+#IB button.btn {
+	border: 2px solid #3b049b;
+}
+
+#IB button.btn a {
+	color: #3b049b;
 }
 
 #CL {
-	background-color: #97CBFD;
+	background-color: #FFFFFF;
 }
+
+#CL .project-info {
+	color: #2154ed;
+}
+
+#CL button.btn {
+	border: 2px solid #2154ed;
+}
+
+#CL button.btn a {
+	color: #2154ed;
+}
+
 #climate-lens-image {
 	background-image: url("../images/ClimateLensLogo.png");
 	background-repeat: no-repeat;
@@ -220,11 +254,16 @@ button.btn-white a{
 	height: 220px;
 	width: 220px;
 }
-#footer {
-	display: flex;
+
+#footer-container {
 	width: 100%;
-	height: 200px;
 	background-color: #C7C7C7;
+}
+#footer {
+	margin: auto;
+	display: flex;
+	width: 1080px;
+	height: 200px;
 }
 
 #linkedin {
