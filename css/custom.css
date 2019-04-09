@@ -113,6 +113,7 @@ button.btn {
 
 button.btn a{
 	text-decoration: none;
+	color: black;
 }
 
 /* Homepage Photo */
@@ -208,7 +209,7 @@ button.btn a{
 }
 
 #BO button.btn {
-	border: 2px solid #d80d0d;
+	border: 1px solid #d80d0d;
 }
 
 #BO button.btn a {
@@ -224,7 +225,7 @@ button.btn a{
 }
 
 #IB button.btn {
-	border: 2px solid #3b049b;
+	border: 1px solid #3b049b;
 }
 
 #IB button.btn a {
@@ -240,7 +241,7 @@ button.btn a{
 }
 
 #CL button.btn {
-	border: 2px solid #2154ed;
+	border: 1px solid #2154ed;
 }
 
 #CL button.btn a {
@@ -317,18 +318,18 @@ button.btn a{
 }
 
 .BO-page-title {
-	border-color: #FF7676;
-	color: #FF7676;
+	border-color: #d80d0d;
+	color: #d80d0d;
 }
 
 .IB-page-title {
-	border-color: #7D3AA6;
-	color: #7D3AA6;
+	border-color: #3b049b;
+	color: #3b049b;
 }
 
 .CL-page-title {
-	border-color: #1C7BD6;
-	color: #1C7BD6;
+	border-color: #2154ed;
+	color: #2154ed;
 }
 
 .project-page-h3 {
@@ -699,14 +700,14 @@ button.btn a{
 
 	/* Project jumbo bg colors */
 	.BO-page-title {
-		border-color: #FF7676;
+		border-color: #d80d0d;
 	}
 	
 	.IB-page-title {
-		border-color: #7D3AA6;
+		border-color: #3b049b;
 	}
 	.CL-page-title {
-		border-color: #1C7BD6;
+		border-color: #2154ed;
 	}
 
 	#resume-title {
