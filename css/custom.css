@@ -263,8 +263,8 @@ button.btn a{
 #footer {
 	margin: auto;
 	display: flex;
-	width: 1080px;
-	height: 200px;
+	max-width: 1080px;
+	max-height: 200px;
 }
 
 #linkedin {
