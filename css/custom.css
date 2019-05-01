@@ -113,7 +113,7 @@ button.btn {
 
 button.btn a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 /* Homepage Photo */
@@ -180,7 +180,7 @@ button.btn a{
 .project-tag {
 	font-style: italic;
 	font-weight: 300;
-	margin-bottom: 15px;
+	margin-bottom: 8px;
 }
 
 .project-image-container{
@@ -208,12 +208,8 @@ button.btn a{
 	color: #F5822F;
 }
 
-#FA button.btn {
-	border: 1px solid #F5822F;
-}
-
-#FA button.btn a {
-	color: #F5822F;
+#FA a, #BO a, #IB a, #CL a{
+	color: #425cf4;
 }
 
 #BO {
@@ -221,15 +217,7 @@ button.btn a{
 }
 
 #BO .project-info h3, #BO .project-info h1 {
-	color: #d80d0d;
-}
-
-#BO button.btn {
-	border: 1px solid #d80d0d;
-}
-
-#BO button.btn a {
-	color: #d80d0d;
+	color: #f71322;
 }
 
 #IB {
@@ -240,13 +228,6 @@ button.btn a{
 	color: #3b049b;
 }
 
-#IB button.btn {
-	border: 1px solid #3b049b;
-}
-
-#IB button.btn a {
-	color: #3b049b;
-}
 
 #CL {
 	background-color: #FFFFFF;
@@ -256,13 +237,6 @@ button.btn a{
 	color: #2154ed;
 }
 
-#CL button.btn {
-	border: 1px solid #2154ed;
-}
-
-#CL button.btn a {
-	color: #2154ed;
-}
 
 #climate-lens-image {
 	background-image: url("../images/ClimateLensLogo.png");
@@ -705,7 +679,7 @@ height: 100%;
 
 	/* Portfolio */
 	.portfolio-item {
-		height: 400px;
+		height: 600px;
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
