@@ -119,7 +119,7 @@ button.btn a{
 /* Homepage Photo */
 .parallax {
 	background-image: url("../images/homebg.jpg");
-	height: 350px;
+	height: 100%;
 	width: 100%;
 	top: 0px;
 	left: 0px;
@@ -137,7 +137,7 @@ button.btn a{
 }
 
 .intro {
-	height: 350px;
+	height: 100vh;
 	position: relative;
 	z-index: 2;
 }
@@ -607,7 +607,11 @@ height: 100%;
 	/* Titles */
 	h1 {
 		font-family: 'Montserrat', sans-serif;
-		font-size: 48px;
+		font-size: 56px;
+	}
+
+	#name {
+		font-size: 84px;
 	}
 
 	h3 {
@@ -657,23 +661,18 @@ height: 100%;
 
 	/* Home Banner */
 
-	.parallax {
-		height: 600px;
-	}
+	
 
 	/* Introduction */
 	
-	.intro {
-		height: 600px;
-	}
 
 	
 	.intro h3 {
-	font-size: 22px;
+	font-size: 36px;
 }
 
 	#subtitle1 {
-	padding-top: 250px;
+	padding-top: 40vh;
 }
 
 
