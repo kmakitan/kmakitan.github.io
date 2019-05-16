@@ -117,87 +117,60 @@ button.btn a{
 }
 
 /* Homepage Photo */
-.parallax {
-	background-image: url("../images/homebg.jpg");
-	height: 100%;
+.parallax-wrapper {
+	height: 100vh;
 	width: 100%;
-	top: 0px;
-	left: 0px;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    position: absolute;
-    z-index: 1;
+	position: absolute;
 }
-
-.opacity {
-	height: 100%;
-	width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+.parallax {
+	background-image: url("../images/LogoFade.png");
+	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	background-size: 400px 400px;
+  	background-position: center;
+  	height: 100%;
 }
 
 .intro {
 	height: 100vh;
 	position: relative;
-	z-index: 2;
-}
-
-#name, #subtitle1, #subtitle2 {
+	display: flex;
+	align-items: center;
 	text-align: center;
-	color: white;
 }
 
+.intro h1 {
+	font-size: 30px;
+}
 #name {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
+	color: #303030;
 }
 
-.intro h3 {
-	font-family: 'Playfair Display', serif;
-	font-size: 18px;
-	font-weight: 100;
+#subtitle {
+	font-family: 'Montserrat', sans-serif;
+	color: #adadad;
 }
 
-#subtitle1 {
-	padding-top: 150px;
-}
 
 
 /* Portfolio */
-.portfolio-item {
-	margin-top: 10px;
-	margin-bottom: 10px;
+.thumb {
+	max-width: 100%;
+	padding-bottom: 15px;
 }
-
-.project-info {
-	text-align: center;
+.white-text {
+	color: white;
 }
 
 .project-image-container {
-	margin-left: 0;
-	margin-right: 0;
-}
-.project-tag {
-	font-style: italic;
-	font-weight: 300;
-	margin-bottom: 8px;
-}
-
-.project-image-container{
 	height: 100%;
-	margin-top: 20px;
 }
-
 .project-image {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+	margin: auto;
 	max-height: 100%;
 	max-width: 100%;
-}
-
-.white-text {
-	color: white;
 }
 
 #FA {
@@ -593,6 +566,10 @@ height: 100%;
 /* Media Queries  */
 
 @media (min-width: 576px) {
+	.parallax {
+		background-size: 600px 600px;
+		background-position: top 50% right -50px;
+	}
 	.dd-override {
 		text-align: left;
 		padding: 8px 12px;
@@ -608,10 +585,6 @@ height: 100%;
 	h1 {
 		font-family: 'Montserrat', sans-serif;
 		font-size: 56px;
-	}
-
-	#name {
-		font-size: 84px;
 	}
 
 	h3 {
@@ -664,19 +637,17 @@ height: 100%;
 	
 
 	/* Introduction */
-	
-
-	
-	.intro h3 {
-	font-size: 36px;
-}
-
-	#subtitle1 {
-	padding-top: 40vh;
-}
-
+	.intro h1 {
+		font-size: 36px;
+		width: 75%;
+		text-align: left;
+	}
 
 	/* Portfolio */
+	.thumb {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
 	.portfolio-item {
 		height: 600px;
 		padding-top: 40px;
