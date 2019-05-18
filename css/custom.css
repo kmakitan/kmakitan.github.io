@@ -108,6 +108,51 @@ nav {
 .dropdown-menu a {
 	font-size: 12px;
 }
+/*  Footer  */
+
+#footer-container {
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #C7C7C7;
+}
+#footer {
+	margin: auto;
+	display: flex;
+	max-width: 1080px;
+	max-height: 200px;
+}
+
+#linkedin {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#linkedin img {
+	padding-left: 5px;
+}
+
+
+#footer-logo {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#copyright {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+#copyright p {
+	padding-right: 5px;
+	font-size: 9px;
+}
+
 
 /* Button */
 button.btn {
@@ -174,104 +219,93 @@ button.btn a{
 }
 
 .project-image-container {
-	height: 100%;
+	display: flex;
+	align-items: center;
 }
 .project-image {
 	display: block;
-	margin: auto;
-	max-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 350px;
 	max-width: 100%;
 }
 
-#FA {
-	background-color: #FFFFFF;
+.project-info p {
+	color: white;
 }
 
-#FA .project-info h3, #FA .project-info h1 {
-	color: #F5822F;
+.project-info h3, .project-info h1 {
+	color: #fff;
 }
 
 #FA a, #BO a, #IB a, #CL a{
 	color: #425cf4;
 }
 
-#BO {
-	background-color: #FFFFFF;
+#FA, #BO, #IB, #CL {
+	height: calc(100vh - 60px);
+	padding: 0px;
+	margin: 0px;
 }
 
-#BO .project-info h3, #BO .project-info h1 {
-	color: #f71322;
+#FA .row, #BO .row, #IB .row, #CL .row {
+	margin-top: 60px;
+	background-repeat: no-repeat;
+  	background-size: contain;
+  	background-position: center;
+  	height: 100%;
+}
+
+#FA {
+	background-color: #F5822F;
+}
+
+#FA .row {
+	background-image: url("../portfolio/Fammili/images/Trans.png");
+}
+
+#BO {
+	background-color: #EB3333;
+}
+
+#BO .row {
+	background-image: url("../portfolio/BenefitOne/images/Trans.png");
 }
 
 #IB {
-	background-color: #FFFFFF;
+	background-color: #524065;
 }
 
-#IB .project-info h3, #IB .project-info h1 {
-	color: #3b049b;
+#IB .row {
+	background-image: url("../portfolio/IdentifiBio/images/Trans.png");
 }
 
 
 #CL {
-	background-color: #FFFFFF;
+	background-color: #4898F6;
 }
 
-#CL .project-info h3, #CL .project-info h1 {
-	color: #2154ed;
-}
-
-
-#climate-lens-image {
-	background-image: url("../images/ClimateLensLogo.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 220px;
-	width: 220px;
-}
-
-#footer-container {
-	width: 100%;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background-color: #C7C7C7;
-}
-#footer {
-	margin: auto;
-	display: flex;
-	max-width: 1080px;
-	max-height: 200px;
-}
-
-#linkedin {
-	flex: 1;
-	display: flex;
-	align-items: center;
-	justify-content: flex-start;
-}
-
-#linkedin img {
-	padding-left: 5px;
+#CL .row {
+	background-image: url("../portfolio/ClimateLens/images/Trans.png");
 }
 
 
-#footer-logo {
-	flex: 1;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-#copyright {
-	flex: 1;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
+.project-container {
+	height: 100%;
 }
 
-#copyright p {
-	padding-right: 5px;
-	font-size: 9px;
+.project-info p {
+	color: white;
 }
 
+.project-info h1, .project-info h2, .project-info h3 {
+	color: #fff;
+}
+
+.project-info-container {
+	text-align: center;
+	margin-top: 30px;
+}
 
 /* Project Details */
 .project-page-jumbo {
@@ -279,8 +313,14 @@ button.btn a{
 }
 
 .project-page-title {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 48px;
+	font-weight: 600;
+}
+
+.project-page-subtitle {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
 }
 
 .project-page-h1 {
@@ -683,13 +723,14 @@ height: 100%;
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
-
-	.project-container, .project-container .row, .project-container .row .project-info-container {
+	.project-container .row .project-info-container {
 		height: 100%;
 	}
 
 	.project-info-container {
 		display: table;
+		text-align: left;
+		margin-top: 0px;
 	}
 
 	.project-info {
@@ -699,12 +740,12 @@ height: 100%;
 	}
 
 	.project-image-container {
+		height: 100%;
 		margin-top: 0px;
 	}
 
-	#climate-lens-image {
-		height: 100%;
-		width: 100%;
+	.project-image {
+		max-height: 100%;
 	}
 
 	#linkedin img {
