@@ -214,6 +214,7 @@ button.btn a{
 iframe {
 	display: block;
 	margin: auto;
+	height: 100%;
 }
 .h1-title {
 	margin-top: 40px;
