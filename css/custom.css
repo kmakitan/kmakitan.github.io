@@ -215,10 +215,11 @@ iframe {
 	display: block;
 	margin: auto;
 	height: 100%;
+	min-width: 100%;
 }
 
 .iframe-container {
-	height: 100vh;
+	height: calc(100vh - 60px);
 }
 
 .youtube-container{
