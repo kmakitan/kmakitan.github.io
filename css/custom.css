@@ -216,6 +216,21 @@ iframe {
 	margin: auto;
 	height: 100%;
 }
+
+.iframe-container {
+	height: 100vh;
+}
+
+.youtube-container{
+	width: 100%;
+	height: 300px;
+}
+
+.youtube {
+	width: 100%;
+	min-height: 100%;
+}
+
 .h1-title {
 	margin-top: 40px;
 }
