@@ -218,13 +218,16 @@ button.btn a{
 	padding-top: 56.25%;
 }
 .IBinvision-container {
-	padding-top: 47.204%
+	padding-top: 212.33%
+	width: 100%;
 }
 .CLinvision-container {
-	padding-top: 47.6%;
+	padding-top: 210.08%;
+	width: 100%;
 }
 .marvel-container {
-	padding-top: 51.656%;
+	padding-top: 193.59%;
+	width: 100%;
 }
 .youtube {
 	height: 100%;
@@ -251,7 +254,7 @@ iframe {
 	padding: 20px 0px 20px 0px;
 }
 
-.jumbotron img {
+.jumbo-img {
 	width: 100%;
 }
 
@@ -294,6 +297,7 @@ button.btn a {
 .project-image-container {
 	display: flex;
 	align-items: center;
+	height: calc(100vh - 236px);
 }
 .project-image {
 	display: block;
