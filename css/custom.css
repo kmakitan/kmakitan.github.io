@@ -210,26 +210,32 @@ button.btn a{
 
 
 /* Portfolio */
-
-iframe {
-	display: block;
-	margin: auto;
-	height: 100%;
-	min-width: 100%;
-}
-
 .iframe-container {
-	height: calc(100vh - 60px);
+	overflow: hidden;
+	position: relative;
 }
-
 .youtube-container{
-	width: 100%;
-	height: 300px;
+	padding-top: 56.25%;
 }
-
+.IBinvision-container {
+	padding-top: 47.204%
+}
+.CLinvision-container {
+	padding-top: 47.6%;
+}
+.marvel-container {
+	padding-top: 51.656%;
+}
 .youtube {
+	height: 100%;
+}
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
-	min-height: 100%;
+	height: 100%;
+	border: 0;
 }
 
 .h1-title {
@@ -529,6 +535,11 @@ button.btn a {
 }
 
 /* Media Queries  */
+
+@media (min-width: 768px) {
+	.youtube-container{
+		padding-top: 28.125%;
+	}
 
 @media (min-width: 576px) {
 	.parallax-wrapper {
