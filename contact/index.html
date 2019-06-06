@@ -52,17 +52,12 @@
     		<div class="title-container" id="title-container">
 		        <h1 class="text-center title white-text" id="resume-title">CONTACT</h1>
 		    </div>
-    		<form id="contact-form" action="mailto:kenzo@kenzomakitani.com" method="post" enctype="text/plain">
-                <p class="form-header">Name</p>
-                <input id="first-input" type="text" name="first"><input id="last-input" type="text" name="last"><br>
-                <div id="first-name">First</div><div id="last-name">Last</div><br>
-                <p class="form-header">Email Address</p>
-                <input class="form-100" type="text" name="email"><br>
-                <p class="form-header">Message</p>
-                <input id="message" class="form-100" type="text" name="message"><br>
-                <div class="button-wrapper">
-                    <button id="send" class="btn white-text btn-white button-resume"><input id="submit" type="submit" value="Send"></button>
-                </div>
+    		<form id="contact-form" action="contactform.php" method="post">
+                <input type="text" name="name" placeholder="Full name">
+                <input type="text" name="mail" placeholder="Your e-mail">
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" placeholder="Message"></textarea>
+                <button type="submit" name="submit">SEND MAIL</button>
             </form>
     	</div>
 	</div>
