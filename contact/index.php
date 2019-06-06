@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -41,7 +41,7 @@
                         <a class="nav-link" href="../about/index.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Contact</a>
+                        <a class="nav-link" href="index.php">Contact</a>
                     </li>
                 </ul>
             </div>
