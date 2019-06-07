@@ -52,6 +52,10 @@ p {
 	margin-bottom: 30px;
 }
 
+a {
+	color: #717171;
+}
+
 /* Navigation */
 nav {
 	background-color: white;
