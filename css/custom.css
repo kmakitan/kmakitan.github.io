@@ -242,8 +242,8 @@ iframe {
 	margin-top: 40px;
 }
 .row {
-	margin-bottom: 90px;
-	margin-top: 90px;
+	padding-bottom: 90px;
+	padding-top: 90px;
 }
 
 .no-margin {
@@ -253,7 +253,7 @@ iframe {
 
 .jumbotron {
 	background-color: #F8F8F8;
-	padding: 20px 0px 20px 0px;
+	padding: 60px 0px 60px 0px;
 }
 
 .jumbo-img {
@@ -481,8 +481,13 @@ button.btn a {
 
 
 /* Contact */
+#contact-container {
+	height: calc(100vh - 200px);
+}
+
 #contact {
-	height: calc(100vh - 230px);
+	margin-top: 60px;
+	padding-top: 40px;
 }
 
 /* Media Queries  */
@@ -647,10 +652,6 @@ button.btn a {
 	}
 
 	#resume-title {
-		border-color: #FFFFFF;
-	}
-
-	#contact-title {
 		border-color: #FFFFFF;
 	}
 
