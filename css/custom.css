@@ -246,6 +246,11 @@ iframe {
 	margin-top: 90px;
 }
 
+.no-margin {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
 .jumbotron {
 	background-color: #F8F8F8;
 	padding: 20px 0px 20px 0px;
@@ -476,63 +481,8 @@ button.btn a {
 
 
 /* Contact */
-#contact-bg {
-	margin-top: 60px;
-	background-color: #525659;
-}
-
-#contact-container {
-	max-width: 800px;
-}
-
-#contact-form {
-	color: white;
-	padding-bottom:5px;
-}
-
-.form-header {
-	padding-top: 40px;
-}
-
-.form-100 {
-	width: 100%;
-}
-
-#first-input {
-	width: 48%;
-	margin-right: 2%;
-}
-
-#last-input {
-	width: 48%;
-	margin-left: 2%;
-}
-
-#first-name {
-	width: 48%;
-	margin-right: 2%;
-	float: left;
-	font-size: 12px;
-}
-#last-name {
-	float: left;
-	width: 48%;
-	margin-left: 2%;
-	font-size: 12px
-}
-
-#message {
-	height: 200px;
-}
-
-#submit {
-	border: none;
-	background-color: rgba(0,0,0,0);
-	color: white;
-}
-
-#send {
-	margin: auto;
+#contact {
+	height: calc(100vh - 230px);
 }
 
 /* Media Queries  */
