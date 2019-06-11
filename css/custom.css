@@ -348,7 +348,7 @@ button.btn a {
 }
 
 #BO {
-	background-color: #EB3333;
+	background-color: #DD2525;
 }
 
 #BO .row {
@@ -396,7 +396,7 @@ button.btn a {
 }
 
 .BO-color {
-	color: #EB3333;
+	color: #DD2525;
 }
 
 .IB-color {
@@ -409,6 +409,11 @@ button.btn a {
 
 .container {
 	margin-right: 0px 10px;
+}
+
+.container-2{
+	max-width: 1500px;
+	margin: auto;
 }
 
 .vimeo {
